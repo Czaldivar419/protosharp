@@ -28,4 +28,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-
+.lrn-btn {
+  font-weight: 600;
+}
