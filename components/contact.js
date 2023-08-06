@@ -36,8 +36,8 @@ export default function Contact() {
         <div className="flex flex-col bg-black bg-opacity-50 p-4 rounded-lg" style={{ marginTop: "-50%" }}>
             <h1 className={`text-white text-6xl text-center ${teko.className}`}>Contact Us</h1>
             <p className="text-white text-center pb-4">
-            If you have any questions or inquiries about our diverse range of services, don't hesitate to get in touch with us. 
-            Feel free to use the email form below, and we'll reach out to you promptly. Our team is enthusiastic about 
+            If you have any questions or inquiries about our diverse range of services, don&apos;t hesitate to get in touch with us. 
+            Feel free to use the email form below, and we will reach out to you promptly. Our team is enthusiastic about 
             providing you with the guidance and expertise you need. We look forward to hearing from you and exploring 
             how we can assist you in achieving your goals.
             </p>
@@ -48,7 +48,7 @@ export default function Contact() {
                 <textarea className="block text-gray mb-4"placeholder=" Message" name="message"></textarea>
                 <button type="submit" className="bg-gray-700 hover:bg-gray-900 text-white rounded p-2 py-1 shadow">Submit</button>
                 {showMessageSent && 
-                <div className="text-white tex-center">
+                <div className="text-white text-center">
                     Message sent!
                     </div>}
             </form>
