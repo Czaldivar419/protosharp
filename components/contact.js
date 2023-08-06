@@ -42,9 +42,9 @@ export default function Contact() {
             how we can assist you in achieving your goals.
             </p>
             <form className="flex flex-col align-center justify-center pr-8 pl-8 pb-4"ref={form} onSubmit={sendEmail}>
-                <input type="text" placeholder=" Name" name="user_name" class="block text-gray-500 mb-4 rounded"></input>
-                <input type="email" placeholder=" Email" name="user_email" class="block text-gray-500  mb-4 rounded"></input>
-                <input type="tel" placeholder=" Phone" name="phone_number" class="block text-gray-500 mb-4 rounded"></input>
+                <input type="text" placeholder=" Name" name="user_name" className="block text-gray-500 mb-4 rounded"></input>
+                <input type="email" placeholder=" Email" name="user_email" className="block text-gray-500  mb-4 rounded"></input>
+                <input type="tel" placeholder=" Phone" name="phone_number" className="block text-gray-500 mb-4 rounded"></input>
                 <textarea className="block text-gray mb-4"placeholder=" Message" name="message"></textarea>
                 <button type="submit" className="bg-gray-700 hover:bg-gray-900 text-white rounded p-2 py-1 shadow">Submit</button>
                 {showMessageSent && 
