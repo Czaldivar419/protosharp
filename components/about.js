@@ -39,7 +39,7 @@ export default function About() {
       optimizing supply chains, and driving operational efficiency, we are dedicated to delivering innovative solutions and achieving 
       remarkable results for our clients. From overcoming technical challenges to implementing lean practices and fostering strong 
       supplier partnerships, we are committed to providing top-notch guidance and expertise tailored to your unique needs. Partner 
-      with us to unlock your business's true potential and embark on a journey of success and growth
+      with us to unlock your business&rsquo;s true potential and embark on a journey of success and growth
       </p>
     </div>
   );

@@ -14,25 +14,25 @@ export default function Team() {
       imgUrl: "tony.jpg",
       name: "Tony Martinez",
       title: "President",
-      about: "Tony Martinez, a seasoned leader with 40+ years in Operations Management and Logistics, heads Protosharp Industries. His expertise in Lean and Six Sigma drives high-performance teams and competitive advantage. With notable contributions to aerospace and defense companies. Actively involved in professional associations, he is a respected figure in the industry.",
+      about: "With over 30 years of experience in Operations Management and Logistics, Tony Martinez leads Protosharp Industries, a top consulting firm in Southern California for U.S. Government and Defense Industry needs. His leadership builds high-performance teams using Lean and Six Sigma techniques for a competitive edge. Notably, he has contributed to firms like Bombardier Aerospace, Goodrich Landing Gear, Hughes Electronics, and Rockwell Collins. Martinez holds an MA in Management from National University, a BS in Industrial Technology-Electronics from California State University-Long Beach, and APICS CPIM and CIRM certifications. He's a Board member of APICS Inland Empire Chapter and contributes to local logistics and supply chain programs.",
     },
     {
       imgUrl: "hank.jpg",
       name: "Hank Rogers",
       title: "Senior Consultant",
-      about: "Hank Rogers is a seasoned consultant with expertise in manufacturing operations, quality systems, Six Sigma, and Lean methodologies. He has achieved significant cost savings in various industries across the US and Latin America. Hank's bilingual proficiency and academic background make him a valuable asset in cross-cultural settings",
+      about: "Hank Rogers, a distinguished manufacturing consultant, has made an indelible mark with his prowess in quality systems, Six Sigma, and Lean methodologies. With a trailblazing career spanning the U.S. and Latin America, Hank's achievements include elevating aerospace SPC programs and establishing thriving factories. Notably, he spearheaded a $20M savings initiative alongside a major Mexican auto plant. Hank's expertise extends across diverse sectors such as finance, aerospace, healthcare, and education. Holding degrees from prestigious institutions like Notre Dame, Illinois State, and Cal Poly Pomona, Hank's contributions have earned him the esteemed Distinguished Instructor Award from UC Irvine.",
     },
     {
       imgUrl: "lisa.jpg",
       name: "Lisa Anderson",
       title: "Senior Consultant",
-      about: " Lisa Anderson is a seasoned business executive with a strong background in operations, project management, and supply chain. She has led successful turnarounds and achieved significant improvements in inventory management and service levels. Lisa holds an MBA in Finance and serves as the President of the APICS Inland Empire Chapter.",
+      about: "Lisa Anderson is a seasoned business executive with a strong track record in operations, project management, and supply chain optimization. She notably led an operational turnaround and merger at Attends Healthcare, achieving impressive inventory turnover, cost reduction, and improved service levels. Lisa holds an MBA in Finance from California State University, Fullerton, and a BS in Business Administration from the University of North Carolina, Chapel Hill. Currently, she serves as President of the APICS Inland Empire Chapter.",
     },
     {
         imgUrl: "fuentes.jpg",
         name: "Cecelia Fuentes",
         title: "Business Development Specialist",
-        about: "Cecelia Fuentes is an experienced consultant with a strong background in business development, training, and project management. She has worked on significant projects at Lockheed Martin and leads fundraising and marketing initiatives at Advanced Consulting Associates. Her organizational skills are vital to Protosharp's contract development and management.",
+        about: "Cecelia Fuentes, a seasoned consultant, has driven business development, training, and project management in Southern California. Notably, at Lockheed Martin, she spearheaded security protocol implementation for the Transportation Security Administration project across US airports. As head of Advanced Consulting Associates, Cecelia excels in fundraising, event production, marketing, and research, enhancing Protosharp's contract management. With degrees from UCLA and The London School of Economics, including an MSc. in International Political Economy, her expertise shines.",
       },
   ];
 
