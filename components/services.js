@@ -31,7 +31,15 @@ export default function Services() {
   ];
 
   return (
-    <section className="project bg-black" id="services">
+    <div 
+    id="services"
+    className="grid bg-center bg-no-repeat bg-cover"
+      style={{
+        backgroundImage: `url("/black.jpg")`,
+        backgroundPosition: "center",
+      }}
+    >
+    <div className="md:p-9" id="services">
         <h1 className={`text-white text-6xl text-center pt-4 ${teko.className}`}>Services</h1>
       <div>
         <div className="p-4 pt-1">
@@ -42,6 +50,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    </div>
   );
 };

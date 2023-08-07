@@ -29,8 +29,8 @@ export default function Banner() {
       }}
     >
       <div className="flex flex-col bg-black bg-opacity-20 p-4 rounded-lg" style={{ marginTop: "-35%" }}>
-        <h1 className="text-center text-7xl text-gray-100">Protosharp Industries</h1>
-        <h3 className="text-white text-center text-3xl text-gray-100">International supply chain and operations specialists.</h3>
+        <h1 className="text-center sm: text-7xl text-gray-100 md:text-8xl">Protosharp Industries</h1>
+        <h3 className="text-center text-3xl text-gray-100">International supply chain and operations specialists.</h3>
       </div>
       <div className="flex flex-col items-center justify-center">
         <button

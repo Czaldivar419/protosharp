@@ -29,14 +29,14 @@ export default function Nav() {
         id="navbar"
         className=" border-gray-200 bg-gray-900 dark:bg-gray-800 dark:border-gray-700"
       >
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pb-2 p-4">
+        <div className="max-w-screen-xl flex flex-wrap md:flex-row items-center justify-between mx-auto pb-2 p-4">
           <a href="#" className="flex items-center">
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-8 mr-3"
               alt="Flowbite Logo"
             />
-            <span className={`self-center text-4xl font-semibold  text-white ${teko.className}`}>
+            <span className={` text-3xl self-center font-semibold md:text-lg md:p-2 text-white ${teko.className}`}>
               Protosharp Industries
             </span>
           </a>
@@ -78,11 +78,11 @@ export default function Nav() {
             </svg>
           </button>
           <div
-            className={`w-full md:flex md:w-auto ${
-              isMenuOpen ? 'block' : 'hidden'
-            }`}
-          >
-            <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-900 md:flex-row md:space-x-5 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+        className={`${
+          isMenuOpen ? 'block' : 'hidden'
+        } w-full md:flex md:w-auto md:p-4`}
+      >
+            <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-900 md:flex-row md:space-x-1 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
               <li>
                 <button
                   type="button"
