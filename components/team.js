@@ -38,8 +38,9 @@ export default function Team() {
 
   return (
 
-    <div id="team" className="bg-gray-900 p-4">
-        <h1 className={`text-white text-6xl text-center pt-3 ${teko.className}`}>Our Team</h1>
+    <div id="team" className="bg-gray-900 p-4 content-center">
+      <div className="lg:p-15">
+        <h1 className={`text-white lg:text-7xl text-6xl text-center pt-3 ${teko.className}`}>Our Team</h1>
         <Carousel showThumbs={false}>
       {teamMembers.map((member, index) => (
         <div key={index}>
@@ -47,6 +48,7 @@ export default function Team() {
         </div>
       ))}
     </Carousel>
+    </div>
     </div>
   );
 }

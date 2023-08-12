@@ -40,7 +40,7 @@ export default function Services() {
       }}
     >
     <div className="md:p-9" id="services">
-        <h1 className={`text-white text-6xl text-center pt-4 ${teko.className}`}>Services</h1>
+        <h1 className={`text-white lg:text-7xl text-6xl text-center pt-4 ${teko.className}`}>Services</h1>
       <div>
         <div className="p-4 pt-1">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">

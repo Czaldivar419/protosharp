@@ -17,15 +17,14 @@ export const ReviewsCard = ({ source, review, imgUrl, index}) => {
 
 
       {/* medium screens */}
-        <div className={`hidden md:flex items-center ${isEvenIndex ? 'flex-row' : 'flex-row-reverse'}`}>
+        <div className={`hidden md:flex items-center lg:mr-10 lg:ml-10 ${isEvenIndex ? 'flex-row' : 'flex-row-reverse'}`}>
         <div className="w-1/2">
           <img 
-          style={{ marginTop: "-25%"}} 
-          className="p-7 " 
+          className="p-7 lg:p-10 " 
           src={imgUrl} 
           alt="testimonial" />
           </div>
-          <div className="w-1/2 pb-14">
+          <div className="w-1/2 p-4 pb-6 border-2 rounded-lg bg-gray-900 bg-opacity-90">
           <h3 className="text-white text-md text-center p-4">{review}</h3>
           <p className="text-white text-center text-md pt-6">{source}</p>
           </div>

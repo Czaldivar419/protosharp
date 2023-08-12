@@ -35,8 +35,8 @@ export default function Reviews() {
         backgroundImage: `url("/black.jpg")`,
         backgroundPosition: "center left 5%",
       }}>
-    <div className="md:p-9" id="testimonials">
-        <h1 className={`text-white text-6xl text-center pt-3 ${teko.className}`}>Testimonials</h1>
+    <div className="md:p-9 lg:p-15" id="testimonials">
+        <h1 className={`text-white lg:text-7xl text-6xl text-center pt-3 ${teko.className}`}>Testimonials</h1>
         <div className="px-4">
           <div className="mt-8">
             {reviews.map((review, index) => (

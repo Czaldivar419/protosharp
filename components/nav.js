@@ -34,9 +34,9 @@ export default function Nav() {
             <img
               src="https://flowbite.com/docs/images/logo.svg"
               className="h-8 mr-3"
-              alt="Flowbite Logo"
+              alt="Logo"
             />
-            <span className={` text-3xl self-center font-semibold md:text-lg md:p-2 text-white ${teko.className}`}>
+            <span className={` text-3xl self-center font-semibold md:text-2xl lg:text-4xl md:p-2 text-white ${teko.className}`}>
               Protosharp Industries
             </span>
           </a>

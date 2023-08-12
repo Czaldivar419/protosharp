@@ -48,16 +48,19 @@ export default function Contact() {
     };
 
     return (
-        <div id="contact" className="grid bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url("/contact1.jpg")`, backgroundPosition: "center" }}>
+        <div id="contact" 
+        className="grid bg-center bg-no-repeat bg-cover" 
+        style={{ backgroundImage: `url("/contact1.jpg")`, 
+                    backgroundPosition: "center" }}>
             <h1 className={`text-white text-6xl text-center bg-black bg-opacity-50 p-4 ${teko.className}`}>Contact Us</h1>
-            <div className="flex flex-col md:flex-row bg-black bg-opacity-50 p-4 pt-1 rounded-lg">
+            <div className="flex flex-col md:flex-row bg-black bg-opacity-50 p-4 pt-1 rounded-lg ">
             <p className="text-white text-center p-4 pt-0 md:w-1/2">
             If you have any questions or inquiries about our diverse range of services, don&apos;t hesitate to get in touch with us. 
             Feel free to use the email form provided, and we will reach out to you promptly. Our team is enthusiastic about 
             providing you with the guidance and expertise you need. We look forward to hearing from you and exploring 
             how we can assist you in achieving your goals.
             </p>
-                <form className="flex flex-col align-center justify-center pr-8 pl-8 pb-4 md:w-1/2"ref={form} onSubmit={sendEmail}>
+                <form className="flex flex-col lg:ml-15 pr-8 pl-8 pb-4 md:w-1/2"ref={form} onSubmit={sendEmail}>
                 <input type="text" placeholder=" Name" name="user_name" className="block text-gray-500 mb-4 rounded md:max-w-md"></input>
                 <input type="email" placeholder=" Email" name="user_email" className="block text-gray-500  mb-4 rounded md:max-w-md"></input>
                 <input type="tel" placeholder=" Phone" name="phone_number" className="block text-gray-500 mb-4 rounded md:max-w-md"></input>
@@ -72,7 +75,7 @@ export default function Contact() {
                         <div className="text-white text-center">Message sent!</div>
                     )}
                 </form>
+                </div>
             </div>
-        </div>
     );
 }
