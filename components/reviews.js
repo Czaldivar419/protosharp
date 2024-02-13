@@ -22,7 +22,7 @@ export default function Reviews() {
       index: 2
     },
     {
-      source: "- Marcus Martinez, AH-64 Apache Fire Control Systems, Lockheed Martin Corp.",
+      source: "- Marcus Martinez, Armed Forces Veteran.",
       review: `"I had the privilege of collaborating with Tony Martinez, a true trailblazer in both team-based manufacturing and continuous improvement. Tony's profound leadership and unparalleled expertise played a pivotal role in assisting my own professional growth and development. He is always showcasing his exceptional skills in the realm of Production and Inventory Control, as evidenced by his esteemed APICS certifications. Tony's unwavering commitment to fostering talent and mentorship has left an indelible mark upon myself and our organization as whole."`,
       imgUrl: "/apache.jpg",
       index: 3
